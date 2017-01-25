@@ -1,0 +1,174 @@
+@media screen and (max-width: 560px) {
+    .nav-desktop{
+        display: none;
+    }
+    .cbp-af-header nav {
+    display: inline-block;
+    position: relative;
+    float: right;
+    }
+    .logo {
+        width:225px !important;
+    }
+    .teaser {
+    background: url('');
+    height: 280px;
+        .teaser-copy{
+        text-align: center;
+        margin-top: 180px;
+        }
+    }
+}
+
+@media screen and (min-width: 560px) {
+    .navbar-toggler {
+        display: none;
+    }
+}
+@media (max-width: 480px) {
+    .logo {
+        width:180px !important;
+    }
+}
+
+
+@media (max-width: 992px) {
+  .cbp-af-header h1,
+  .cbp-af-header .nav a {
+    line-height: 72px;
+  }
+  .cbp-af-header.cbp-af-header-shrink h1 {
+    font-size: 1em;
+  }
+  .cbp-af-header h1 {
+    margin: 0 auto;
+  }
+  .cbp-af-header h1 a {
+    margin: 0.9em 0;
+  }
+  .cbp-af-header.cbp-af-header-shrink h1 a {
+    margin: 0.1em 0;
+  }
+  section.content h2 {
+    font-size: 2.5em;
+    padding: 0 1em;
+  }
+  section.content p {
+    font-size: 1.15em;
+    line-height: 1.8;
+    padding: 0 4em;
+  }
+  section h2 {
+    font-size: 2.3em;
+  }
+  section p {
+    font-size: 1.15em;
+    line-height: 1.8;
+  }
+  section .vertical-align {
+    margin: 20px 0;
+  }
+}
+@media (max-width: 991px) and (min-width: 768px) {
+  .cbp-af-header .nav a {
+    padding: 10px;
+  }
+}
+@media (max-width: 767px) {
+  section {
+    text-align: center;
+  }
+  .navbar-collapse {
+    background-color: rgba(43, 43, 43, 0.9);
+  }
+  .navbar-collapse ul {
+    width: 100%;
+  }
+  .navbar-collapse .open .dropdown-menu > li > a {
+    color: white;
+  }
+  .cbp-af-header {
+    position: absolute;
+  }
+  .cbp-af-header h1 a {
+    margin: 0.4em 0;
+  }
+  .cbp-af-header .nav a {
+    line-height: 2;
+  }
+  .cbp-af-header .nav a.login:before {
+    background: transparent;
+  }
+  .cbp-af-header .nav a.btn {
+    display: inline-block;
+  }
+
+  section h2,
+  section.content h2 {
+    font-size: 2em;
+    padding: 0 1em;
+    text-align: center;
+  }
+  section p,
+  section.content p {
+    font-size: 1.15em;
+    line-height: 1.8;
+    padding: 0 4em;
+  }
+  section.separator::before,
+  section.content.separator::before {
+    bottom: -9px;
+  }
+  section.separator::after,
+  section.content.separator::after {
+    bottom: -4px;
+  }
+  .vertical-align {
+    margin: 20px 0;
+  }
+  .featured img {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .testimonials ul li {
+    text-align: left;
+  }
+  .pricing .plan {
+    max-width: 400px;
+    margin: 0 auto 2em;
+  }
+  .owl-theme-main .owl-item .item p {
+    padding: 0;
+  }
+  section.cta h2 {
+    padding: 0;
+  }
+  section.cta .btn {
+    margin-top: 1em;
+    width: 200px;
+  }
+}
+@media (max-width: 480px) {
+  .cbp-af-header .nav a.btn {
+    display: block;
+  }
+  section h2,
+  section.content h2 {
+    font-size: 2.2em;
+    padding: 0 0.4em;
+  }
+  section p,
+  section.content p {
+    padding: 0;
+  }
+  section.cta h2 {
+    padding: 0;
+  }
+  section.cta p {
+    padding: 0 0 1em;
+  }
+  section.cta .btn {
+    width: 80%;
+  }
+
+}
