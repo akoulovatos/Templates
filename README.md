@@ -6,7 +6,7 @@ For more info on Bootstrap Framework visit the [Bootstrap Website](https://v4-al
 
 ## Author:
 
-AJ Koulovatos Owner of [PixelOne Digital](http://pixelonedigital.com)
+AJ Koulovatos Owner of [PixelOne](http://pixelonedigital.com)
 
 ## Bootstrap Version:
 
