@@ -1,10 +1,8 @@
 <html>
 <!DOCTYPE html>
+
 <!--
-* For the brave souls who get this far: You are the chosen ones,
-* the valiant knights of programming who toil away, without rest,
-* fixing our most awful code. To you, true saviors, kings of men,
-* I say this: never gonna give you up, never gonna let you down,
+* Never gonna give you up, never gonna let you down,
 * never gonna run around and desert you. Never gonna make you cry,
 * never gonna say goodbye. Never gonna tell a lie and hurt you.
 -->
@@ -23,7 +21,7 @@
 
     <title>Title</title>
     <!-- CSS -->
-    <link href="css/style.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -33,30 +31,34 @@
 
 <body>
 
-    <!-- NAVBAR
+    <!-- Navbar
     ================================================== -->
-    <div class="navbar-wrapper cbp-af-header">
-        <div class="container">
-            <!-- Fixed navbar -->
-            <div class="navbar cbp-af-inner" role="navigation">
-                <div class="container">
-                    <div class="navbar-header">
-                        <a href="">
-                            <img src="http://placehold.it/250x80" alt="" class="logo img-reponsive">
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    <nav class="navbar navbar-toggleable-md navbar-inverse fixed-top bg-inverse">
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+        <a class="navbar-brand" href="#"><img src="http://placehold.it/250x60"></a>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#">Disabled</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
 
     <!-- Hero Banner
     ================================================== -->
     <div id="" class="teaser">
         <div class="container">
             <div class="row">
-                <div class="teaser-copy col-xs-12 col-lg-8 col-lg-offset-2">
-
+                <div class="teaser-copy col-lg-12">
                     <h1>Some copy here</h1>
                 </div>
             </div>
@@ -65,41 +67,38 @@
 
     <!-- Info Section
     ================================================== -->
-    <section id="" class="info-section">
+    <section id="" class="section-light">
         <div class="container">
-            <div class="row info-row">
-                <div class="col-sm-12 ">
+            <div class="row">
+                <div class="col-sm-12">
                     <div class="vertical-align">
                         <h2><i class="fa fa-chevron-circle-right" aria-hidden="true"></i> Section Title</h2>
                     </div>
                 </div>
-                <div class="col-xs-12 col-sm-12 col-lg-6">
+                <div class="col-md-12 col-lg-6">
                     <div class="vertical-align">
                       <p>Bacon ipsum dolor amet doner hamburger landjaeger pork loin, spare ribs strip steak frankfurter short ribs tenderloin jowl pork chop meatloaf. Doner beef ribs kielbasa chuck sausage rump beef spare ribs capicola andouille swine kevin shank pancetta alcatra. Turkey turducken beef ribs t-bone. Short ribs capicola beef ribs, bresaola turkey salami hamburger pork belly shoulder ribeye jowl cupim boudin ham hock. Sirloin filet mignon brisket, turkey kielbasa frankfurter meatball strip steak jowl prosciutto leberkas tongue chuck chicken. Leberkas brisket flank, ball tip short ribs tongue pork loin pastrami prosciutto capicola pork rump alcatra venison sausage. Chicken beef short ribs corned beef sirloin.<br><br>
 Bacon ipsum dolor amet doner hamburger landjaeger pork loin, spare ribs strip steak frankfurter short ribs tenderloin jowl pork chop meatloaf. Doner beef ribs kielbasa chuck sausage rump beef spare ribs capicola andouille swine kevin shank pancetta alcatra. Turkey turducken beef ribs t-bone. Short ribs capicola beef ribs, bresaola turkey salami hamburger pork belly shoulder ribeye jowl cupim boudin ham hock. Sirloin filet mignon brisket, turkey kielbasa frankfurter meatball strip steak jowl prosciutto leberkas tongue chuck chicken. Leberkas brisket flank, ball tip short ribs tongue pork loin pastrami prosciutto capicola pork rump alcatra venison sausage. Chicken beef short ribs corned beef sirloin.
                       </p>
-
                     </div>
                 </div>
-                <div class="col-xs-12 col-sm-12 col-lg-6">
+                <div class="col-md-12 col-lg-6">
                     <div class="vertical-align">
-                      <img src="http://placehold.it/400x650"
+                      <img class="img-fluid" src="http://placehold.it/700x850" alt="">
                     </div>
                 </div>
             </div>
-
             <div class="row info-row">
-                <div class="col-sm-12 ">
+                <div class="col-lg-12">
                     <div class="vertical-align">
                         <h2><i class="fa fa-chevron-circle-right" aria-hidden="true"></i> Section Title 2</h2>
                     </div>
                 </div>
-                <div class="col-xs-12 col-sm-12 col-lg-12">
+                <div class="col-lg-12">
                     <div class="vertical-align">
                       <p>Bacon ipsum dolor amet doner hamburger landjaeger pork loin, spare ribs strip steak frankfurter short ribs tenderloin jowl pork chop meatloaf. Doner beef ribs kielbasa chuck sausage rump beef spare ribs capicola andouille swine kevin shank pancetta alcatra. Turkey turducken beef ribs t-bone. Short ribs capicola beef ribs, bresaola turkey salami hamburger pork belly shoulder ribeye jowl cupim boudin ham hock. Sirloin filet mignon brisket, turkey kielbasa frankfurter meatball strip steak jowl prosciutto leberkas tongue chuck chicken. Leberkas brisket flank, ball tip short ribs tongue pork loin pastrami prosciutto capicola pork rump alcatra venison sausage. Chicken beef short ribs corned beef sirloin.<br><br>
 Bacon ipsum dolor amet doner hamburger landjaeger pork loin, spare ribs strip steak frankfurter short ribs tenderloin jowl pork chop meatloaf. Doner beef ribs kielbasa chuck sausage rump beef spare ribs capicola andouille swine kevin shank pancetta alcatra. Turkey turducken beef ribs t-bone. Short ribs capicola beef ribs, bresaola turkey salami hamburger pork belly shoulder ribeye jowl cupim boudin ham hock. Sirloin filet mignon brisket, turkey kielbasa frankfurter meatball strip steak jowl prosciutto leberkas tongue chuck chicken. Leberkas brisket flank, ball tip short ribs tongue pork loin pastrami prosciutto capicola pork rump alcatra venison sausage. Chicken beef short ribs corned beef sirloin.
                       </p>
-
                     </div>
                 </div>
             </div>
@@ -108,7 +107,7 @@ Bacon ipsum dolor amet doner hamburger landjaeger pork loin, spare ribs strip st
 
     <!-- Footer
     ================================================== -->
-    <footer id="footer" class="footer">
+    <footer id="" class="footer">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -123,7 +122,9 @@ Bacon ipsum dolor amet doner hamburger landjaeger pork loin, spare ribs strip st
 
     <!-- JS
     ================================================== -->
-
+     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
 
 </body>
 

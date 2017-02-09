@@ -1,0 +1,42 @@
+//navbar
+.navbar-brand {
+    margin-left: 150px;
+}
+.navbar-nav {
+    margin-right: 150px;
+}
+
+//sections
+.teaser {
+    background: url('http://placehold.it/2000x640');
+    background-size: cover;
+    height: 640px;
+    .teaser-copy{
+        text-align: center;
+        margin-top: 250px;
+        h1 {
+          font-size: 64px;
+          text-transform: uppercase;
+        }
+    }
+}
+
+
+
+//footer
+.footer {
+  background: $black;
+  padding: 4em 0;
+  color: white;
+    .footer-contact {
+      font-size: 18px;
+      text-align: center;
+    }
+    .copyright {
+      color: $white;
+      line-height: 2;
+      font-weight: 200;
+      letter-spacing: 0.7px;
+      text-align: center;
+    }
+}
