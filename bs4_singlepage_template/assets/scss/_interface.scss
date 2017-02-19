@@ -6,6 +6,7 @@
     margin-right: 150px;
 }
 
+
 //sections
 .teaser {
     background: url('http://placehold.it/2000x640');
@@ -15,17 +16,15 @@
         text-align: center;
         margin-top: 250px;
         h1 {
-          font-size: 64px;
+          font-size: 4em;
           text-transform: uppercase;
         }
     }
 }
 
-
-
 //footer
 .footer {
-  background: $black;
+  background:$black;
   padding: 4em 0;
   color: white;
     .footer-contact {

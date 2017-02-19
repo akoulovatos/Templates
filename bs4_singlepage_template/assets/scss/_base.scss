@@ -8,13 +8,13 @@ body {
 .main-content {
     background: $white;
 }
+
 :focus {
   outline: none;
 }
 .vertical-align {
   margin: 30px 0;
 }
-
 
 //fonts
 h1,
@@ -67,6 +67,7 @@ section:after {
   content: '';
   pointer-events: none;
 }
+
 section h1 {
   font-size: 3em;
 }
