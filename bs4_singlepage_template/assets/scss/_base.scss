@@ -47,6 +47,32 @@ p {
   text-align: center;
 }
 
+//margins
+
+.mt-sm {
+  margin-top: 20px;
+}
+
+.mt-md {
+  margin-top: 40px;
+}
+
+.mt {
+  margin-top: 60px;
+}
+
+.mb {
+  margin-bottom: 60px;
+}
+
+.mb-md {
+  margin-bottom: 40px;
+}
+
+.mb-sm {
+  margin-bottom: 20px;
+}
+
 //sections
 .page-header {
   border-bottom: 0;
@@ -89,6 +115,23 @@ section p, section.content p {
     padding: 0;
     text-align: left;
 }
+
+//buttons
+
+.btn {
+  background-color: $white;
+  text-transform: uppercase;
+  width: 100%;
+  padding: 1.4em 0;
+  border: 2px solid $black;
+  border-radius: 0;
+  &:hover {
+    color: $white;
+    background: $black;
+  }
+}
+
+
 
 //webkit/keyframes
 @-webkit-keyframes scaleout {
